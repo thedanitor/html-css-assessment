@@ -26,17 +26,16 @@ body {
   width: 168px;
   margin-top: 29px;
 }
-
 .heading-text {
   font-size: 16px;
   margin: 13px;
   font-weight: 400;
 }
+
 /* Navbar */
 .navbar {
   flex-wrap: wrap;
 }
-
 .nav-link {
   display: inline-block;
   font-weight: 700;
@@ -150,6 +149,22 @@ body {
 .card-img {
   margin: 8px;
 }
+.card-img:nth-of-type(1) {
+  width: 46px;
+  height: 52px;
+}
+.card-img:nth-of-type(2) {
+  width: 51px;
+  height: 51px;
+}
+.card-img:nth-of-type(3) {
+  width: 54px;
+  height: 47px;
+}
+.card-img:nth-of-type(4) {
+  width: 49px;
+  height: 41px;
+}
 .card-header {
   font-size: 18px;
   font-weight: 700;
@@ -161,7 +176,6 @@ body {
   text-align: center;
 }
 /* End of Cards Container  */
-
 
 /* MEDIA QUERIES */
 /* Tablet size */
@@ -185,15 +199,14 @@ body {
     flex-direction: row;
   }
   .biology-text {
-      display: block;
+    display: block;
     width: 267px;
   }
-
   .line {
     width: 80%;
   }
   .select {
-      margin: 0 16px;
+    margin: 0 16px;
   }
   .search-btn {
     width: 160px;
@@ -206,7 +219,7 @@ body {
     flex-direction: row;
   }
   .form-header-text {
-     align-items: flex-start;
+    align-items: flex-start;
   }
   .card {
     width: 456px;
