@@ -1,0 +1,215 @@
+/* Cabin Font */
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+
+/* Common Styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  flex-direction: column;
+  color: #0a162b;
+  font-family: "Cabin", sans-serif;
+}
+/* End of Common Styles  */
+
+.badge {
+  height: 239px;
+  width: 168px;
+  margin-top: 29px;
+}
+
+.heading-text {
+  font-size: 16px;
+  margin: 13px;
+  font-weight: 400;
+}
+/* Navbar */
+.navbar {
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 19.44px;
+  color: #0a162b;
+  text-align: center;
+  margin: 0 40px 30px;
+}
+.nav-link:nth-of-type(1) {
+  width: 81px;
+}
+.nav-link:nth-of-type(2) {
+  width: 57px;
+}
+.nav-link:nth-of-type(3) {
+  width: 54px;
+}
+.nav-link:nth-of-type(4) {
+  width: 101px;
+}
+.nav-link:nth-of-type(5) {
+  width: 75px;
+}
+/* End of Navbar */
+
+.line {
+  border-bottom: 2px solid #0a162b;
+  width: 90%;
+  margin: 40px 20px;
+}
+
+/* Full Form Container */
+.full-form-container {
+  flex-direction: column;
+}
+.form-header-text {
+  flex-direction: column;
+  width: 267px;
+}
+.biology-text {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.sponsored {
+  font-size: 12px;
+  line-height: 14.5px;
+  text-transform: uppercase;
+}
+.form-container {
+  width: 90%;
+}
+.dropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  display: block;
+  width: 336px;
+  padding: 18px;
+  font-size: 18px;
+  margin: 10px 0;
+  border: 2px solid #d0d0d0;
+  border-radius: 5px;
+}
+.search-btn {
+  display: block;
+  width: 336px;
+  padding: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #ffc327;
+  border-radius: 30px;
+  border: none;
+}
+/* End of Full Form Container */
+/* Cards Container  */
+.cards-container {
+  background-color: #f3fbff;
+  flex-direction: column;
+  width: 100%;
+}
+.cards-container-heading {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 23px 30px 0;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  flex-direction: column;
+  width: 336px;
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.card-img {
+  margin: 8px;
+}
+.card-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+/* End of Cards Container  */
+
+
+/* MEDIA QUERIES */
+/* Tablet size */
+@media (min-width: 550px) {
+  .nav-link:nth-of-type(1) {
+    width: 142px;
+  }
+  .nav-link:nth-of-type(2) {
+    width: 143px;
+  }
+  .nav-link:nth-of-type(3) {
+    width: 125px;
+  }
+  .nav-link:nth-of-type(4) {
+    width: 218px;
+  }
+  .nav-link:nth-of-type(5) {
+    width: 194px;
+  }
+  .dropdown {
+    flex-direction: row;
+  }
+  .biology-text {
+      display: block;
+    width: 267px;
+  }
+
+  .line {
+    width: 80%;
+  }
+  .select {
+      margin: 0 16px;
+  }
+  .search-btn {
+    width: 160px;
+  }
+}
+
+/* Desktop Size */
+@media (min-width: 1000px) {
+  .full-form-container {
+    flex-direction: row;
+  }
+  .form-header-text {
+     align-items: flex-start;
+  }
+  .card {
+    width: 456px;
+    padding: 20px;
+  }
+}
